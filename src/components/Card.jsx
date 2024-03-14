@@ -22,7 +22,7 @@ const Card = ({ result }) => {
           <h2 className="text-lg font-bold truncate">
             {result.title || result.name}
           </h2>
-          <p className="flex items-center  ">
+          <p className="flex items-center">
             {result.release_date || result.first_air_date}
           </p>
           <FiThumbsUp className="h-5 mr-1 ml-3" />
